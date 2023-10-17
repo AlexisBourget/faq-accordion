@@ -1,0 +1,41 @@
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.arrow {
+    display: inline;
+    margin-left: 4em;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+p {
+    display: none; /* Masque initialement tous les éléments p */
+    width: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h2 {
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+img.arrow {
+    width: 12px; /* Définissez une largeur fixe pour les flèches */
+    height: 12px; /* Ajustez la hauteur selon vos besoins */
+    vertical-align: middle; /* Alignez verticalement la flèche au centre */
+    padding-top: 8px;
+}
+
+
+.attribution {
+    margin-top: 20em;
+}
