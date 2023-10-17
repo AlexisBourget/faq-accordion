@@ -1,5 +1,23 @@
 body {
     font-family: 'Kumbh Sans', sans-serif;
+    background-color: hsl(273, 75%, 66%) ;
+
+}
+
+
+
+main {
+    background-color: white;
+    border-radius: 1.3em;
+    width: 80%;
+    padding: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.illustration {
+    display: inline-block;
 }
 
 .arrow {
@@ -24,8 +42,8 @@ h2 {
     display: flex;
     justify-content: space-between;
     width: auto;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 img.arrow {
